@@ -4,7 +4,9 @@ until number > 100
   number += 1
 end
 
+number = 1
 100.times do |variable|
-	puts 1
+	puts number
+	number = number + 1
 end
 
